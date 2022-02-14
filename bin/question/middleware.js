@@ -8,6 +8,12 @@ export default () => {
             },
             {
                 name: "koaRouter",
+            },
+            {
+                name: "koaViews",
+            },
+            {
+                name: "koaBody",
             }
         ]
     }

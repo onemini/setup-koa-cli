@@ -8,7 +8,9 @@ export function createConfig(answer) {
         port: answer.port,
         middleware: {
             static: haveMiddleware("koaStatic"),
+            views: haveMiddleware("koaViews"),
             router: haveMiddleware("koaRouter"),
+            body: haveMiddleware("koaBody")
         }
     }
 }

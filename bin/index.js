@@ -67,7 +67,7 @@ async function create () {
         
         cd ${basePath}
         
-        npm run serve
+        npm run test
         
         
         ===============================================
